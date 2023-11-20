@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+* {									/* *表示针对HTML的所有元素*/
+	padding: 0px;					/*内边距为0px*/
+	margin: 0px;					/*外边距为0px*/
+	line-height: 20px;				/*行高20px*/
+}
+body {								/*设置过页面整体样式*/	
+	height: 100%;					/*高度为相对单位*/
+	background-color: #FFFFFF;		/*颜色背景*/
+	position: relative;				/*相对定位*/
+}
+.main_block {						/*设置主体容器样式*/
+	font-family:"宋体";
+	font-size: 15px;
+	color: #000000;					/*设置字体颜色*/
+	overflow: auto;					/*字体溢出框后自动显示滚动条*/
+	float: left;					/*向左浮动*/
+	width: 800px;					/*设置容器宽度*/
+}
+.main_content {						/*设置内容区域的样式*/
+	padding: 20px 0 10px 20px;    	/*上右下左的内边距*/
+	width: 720px;
+	float: left;
+
+}
+.main_content h2 {
+	color:#FF0004;
+	text-align: center;
+}
+.box_detiles {						/*设置详细信息盒子的样式*/
+	padding: 10px 0px 10px 0px;
+	margin: 10px 20px 10px 0;
+	clear: both;					/*清除所有浮动*/
+}
+.box_detiles p {						/*设置盒子中段落的样式*/
+	padding: 5px 15px 5px 15px;	
+	text-indent: 2em;
+	line-height: 25px;
+}
+.box_detiles2 {
+	padding: 10px 0px 10px 0px;
+	margin: 10px 20px 10px 0px;
+	clear: both;					/*清除所有浮动*/
+}
+.box_detiles2 h3 {
+	padding: 0px 15px 5px 15px;
+	color:#359A68;
+}
+.box_detiles2 p {
+	padding: 25px 15px 5px 15px;
+	text-indent: 2em;
+	line-height: 25px;
+}
