@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+* {										/* *表示针对HTML的所有元素*/
+	padding: 0px;						/*内边距*/
+	margin: 0px;						/*外边距*/
+	line-height: 20px;
+}
+body {									/*设置页面整体样式*/
+	height: 100%;						/*高度为相对单位*/
+	background-color: #f3f1e9;
+	position: relative;
+}
+img {
+	border: 0px;
+}
+#wrapper {								/*设置主体容器样式*/
+	padding: 0 0 5px 0;
+}
+#content_inside {						/*设置页面内容区域样式*/
+	background-image:url();				/*背景图像*/	
+	background-position: top left;		/*背景图像顶端左对齐*/
+	background-repeat: no-repeat;		/*背景图无重复*/
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;					/*溢出内容隐藏*/
+}
+#main_block {							/*设置主体内容右侧区域样式*/
+	font-family: "宋体";
+	font-size: 12px;
+	color: #464646;
+	overflow: hidden;
+	float: left;
+	width: 752px;
+}
+.pad20 {								/*设置主体内容右侧区域内边距样式*/
+	padding: 0 0 20px 0;
+}
+#item {									/*设置右侧区域家具大图和缩略容器的样式*/
+	padding: 13px 0 0 5px;
+	float: left;
+}
+#item h4 {								/*设置家具大图和缩略图容器标题文字的样式*/
+	font-family: "宋体";
+	font-size: 24px;
+	color: #242424;
+	font-weight: normal;				/*字体正常粗细*/
+}
+.big_view {								/*设置家具大图区域的样式*/
+	width: 478px;
+	padding: 20px 0 12px 0 ;
+	vertical-align: middle;				/*垂直方向居中对齐*/
+	border: 1px solid #D6D3C7;
+	background-color: #FFFFFF;
+	position: relative;					/*相对定位*/
+	text-align: center;
+}
+.big_view span {						/*设置家具价格文字的样式*/
+	font-size: 30px;
+	color: #E9410E;
+	display: block;
+	position: absolute;					/*绝对定位*/
+	bottom: 10px;						/*距离容器底部*/
+	left: 25px;							/*距离容器左端*/
+}
+.scroll {								/*设置家具缩略图区域的样式*/
+	width: 478px;
+	border: 1px solid #D6D3C7;
+	background-color: #FFFFFF;
+	padding: 6px 0;
+	text-align: center;
+	margin: 5px 0 0 0;
+}
+.scroll a {								/*设置家具缩略图区域超链接的样式*/
+	margin: 0 2px;
+}
+.description {							/*设置家具详细商品参数的样式*/
+	width: 220px;
+	float: left;
+	padding: 55px 0 0 25px;
+}
+.description p {						/*设置商品参数段落的样式*/
+	padding-bottom: 15px;
+}
+.view {									/*设置查看按钮的样式*/
+	display: block;						/*块级元素*/
+	float: left;
+	line-height: 18px;
+	margin: 3px 3px 0 0;
+	width: 41px;
+	text-align: center;
+	background-image: url( "../pictures/深绿色.png");			/*背景图像*/
+	background-position: top left;		/*背景图像顶端左对齐*/
+	background-repeat: no-repeat;		/*背景图像无重复*/
+	color: #fff;
+	text-decoration: none;				/*链接无修饰*/
+}
+.buy {									/*设置购买此商品按钮的样式*/
+	display: block;
+	float: left;
+	line-height: 18px;
+	margin: 3px 3px 0 0;
+	width: 92px;
+	text-align: center;
+	background-image: url( "../pictures/深灰色.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #CAFF34;
+	text-decoration: none;
+}
